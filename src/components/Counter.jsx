@@ -25,7 +25,7 @@ const Counter = () => {
   return (
     <div className="flex flex-col items-center justify-center p-8 bg-gray-100 rounded-3xl">
       <h1 className="text-3xl font-bold mb-4 text-indigo-500">Time Passed Since January 14, 2025</h1>
-      <div className="grid grid-cols-3 gap-4">
+      <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
         <div className="text-center bg-indigo-500 p-4 rounded-lg">
           <p className="text-xl font-bold">Years</p>
           <p className="text-lg font-bold text-indigo-300">{timePassed.years}</p>
